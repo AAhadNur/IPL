@@ -1,0 +1,453 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #d8daed;
+}
+
+#name {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: #db0d30;
+}
+
+#about {
+    margin: 20px 40px;
+    text-align: center;
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+#mumbai {
+    margin-bottom: 15px;
+}
+
+.text-block {
+    margin: 30px 70px;
+    text-align: justify;
+}
+
+.text-header {
+    color: #de0d1b;
+    font-family: sans-serif;
+}
+
+.text-header2 {
+    color: #de0d1b;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.text {
+    margin-top: 5px;
+    margin-left: 25px;
+    font-weight: 550;
+}
+
+header {
+    background: #13118c;
+    height: 80px;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+}
+
+#logo_ {
+    height: 60px;
+    width: 120px;
+}
+
+#navbar {
+    float:right;
+    margin-top: 28px;
+}
+
+div ul li{
+    text-align: center;
+    display: inline;
+    padding: 25px;
+}
+
+div ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+div ul li a:hover {
+    color: #7b7ae6;
+}
+
+
+#ipl {
+    width: 100%;
+    height: 750px;
+}
+
+#orange_cap {
+    border: 1px solid #ff0000;
+    border-radius: 6%;
+    background: #ff6600;
+    position: absolute;
+    left: 424px;
+    transition: background 3s;
+}
+
+#orange_cap:hover {
+    background: #ff0000 ;
+}
+
+#purple_cap {
+    border: 1px solid #732673;
+    border-radius: 6%;
+    background: #c653c6;
+    position: absolute;
+    left: 212px;
+    transition: background 3s;
+}
+
+#purple_cap:hover {
+    background: #4d0099 ;
+}
+
+#highest_score {
+    border: 1px solid #000080;
+    border-radius: 6%;
+    background:#3333ff ;
+    position: absolute;
+    left: 636px;
+    transition: background 3s;
+}
+
+#highest_score:hover {
+    background: #24248f ;
+}
+
+#bowling_figure {
+    border: 1px solid #0f090f;
+    border-radius: 6%;
+    background:#585458c5 ;
+    position: absolute;
+    left: 848px;
+    transition: background 3s;
+}
+
+#bowling_figure:hover {
+    background: #232344fa ;
+}
+
+#valuable_player {
+    border: 1px solid #992600;
+    border-radius: 6%;
+    background:#ff3399 ;
+    position: absolute;
+    left: 1060px;
+    transition: background 3s;
+}
+
+#valuable_player:hover {
+    background: #b30059 ;
+}
+
+#fairplay {
+    border: 1px solid #006666;
+    border-radius: 6%;
+    width: 200px;
+    height: 350px;
+    text-align: center;
+    margin-left: 3px;
+    background: #00b3b3 ;
+    transition: background 3s;
+}
+
+#fairplay:hover {
+    background: #0086b3 ;
+}
+
+
+
+#orange {
+    background: #e60000;
+    color: white;
+}
+
+#purple {
+    background: #732673;
+    color: white;
+}
+
+#score {
+    background: #002699;
+    color: white;
+}
+
+#bowling {
+    background: #383636;
+    color: white;
+}
+
+#value {
+    background: #990073;
+    color: white;
+}
+
+#ceat {
+    width: 120px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+#p_fair {
+    background: #006080;
+    color: white;
+}
+
+
+#venue {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#venue_name {
+    display: block;
+    text-align: center;
+}
+
+#team__ {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#leaders {
+    margin-top: 100px;
+}
+
+#csk {
+    border: 2px solid #ffa600;
+    border-radius: 5%;
+    background-image: linear-gradient(yellow, #ff6600);
+    color: white;
+    position: absolute;
+    left: 300px;
+    transition-duration: 2s;
+}
+#csk:hover {
+    background-image: linear-gradient(#ff6600, yellow);
+}
+
+
+#dc {
+    border: 2px solid #006699;
+    border-radius: 5%;
+    background-image: linear-gradient(#0099ff, #0066cc);
+    color: white;
+    position: absolute;
+    left: 600px;
+}
+#dc:hover {
+    background-image: linear-gradient(#0066cc, #0099ff);
+}
+
+#gt {
+    border: 2px solid #00264d;
+    border-radius: 5%;
+    background-image: linear-gradient(#003366, #006699);
+    color: white;
+    position: absolute;
+    left: 900px;
+}
+#gt:hover {
+    background-image: linear-gradient(#006699, #003366);
+}
+
+
+#kkr {
+    border: 2px solid #26004d;
+    border-radius: 5%;
+    background-image: linear-gradient(#6600cc, #330066);
+    color: white;
+    position: absolute;
+    left: 900px;
+}
+#kkr:hover {
+    background-image: linear-gradient(#330066, #6600cc);
+}
+
+
+#lsg {
+    border: 2px solid #ff9900;
+    border-radius: 5%;
+    background-image: linear-gradient(#ff0080, #ff9900);
+    color: white;
+}
+#lsg:hover {
+    background-image: linear-gradient(#ff9900, #ff0080);
+}
+
+
+#mi {
+    border: 2px solid #002b80;
+    border-radius: 5%;
+    background-image: linear-gradient(#00ace6, #002b80);
+    color: white;
+    position: absolute;
+    left: 300px;
+}
+#mi:hover {
+    background-image: linear-gradient(#002b80, #00ace6);
+}
+
+
+#pbks {
+    border: 2px solid #992600;
+    border-radius: 5%;
+    background-image: linear-gradient(#e63900, #992600);
+    color: white;
+    position: absolute;
+    left: 600px;
+}
+#pbks:hover {
+    background-image: linear-gradient(#992600, #e63900);
+}
+
+
+#rr {
+    border: 2px solid #002266;
+    border-radius: 5%;
+    background-image: linear-gradient(#cc0099, #002b80);
+    color: white;
+    position: absolute;
+    left: 600px;
+}
+#rr:hover {
+    background-image: linear-gradient(#002b80, #cc0099);
+}
+
+
+#srh {
+    border: 2px solid #e6005c;
+    border-radius: 5%;
+    background-image: linear-gradient(#ff6600, #e6005c);
+    color: white;
+    position: absolute;
+    left: 300px;
+}
+#srh:hover {
+    background-image: linear-gradient(#e6005c, #ff6600);
+}
+
+
+#rcb {
+    border: 2px solid #2e292b;
+    border-radius: 5%;
+    background-image: linear-gradient(#7c7774d2, #363133);
+    color: white;
+}
+#rcb:hover {
+    background-image: linear-gradient(#363133, #7c7774d2);
+}
+
+#ticket {
+    margin-top: 550px ;
+    width: 100%;
+}
+
+
+
+
+
+.stadium {
+    width: 23%;
+    height: 190px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+
+}
+
+.stadium_name {
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #0418b5;
+    display: inline-block;
+}
+
+img.team {
+    width: 160px;
+    height: 160px;
+}
+
+div.team {
+    width: 160px;
+    height: 300px;
+    margin-bottom: 25px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+img.player {
+    width: 200px;
+    height: 200px;
+}
+
+div.leader {
+    width: 200px;
+    height: 350px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+div.players {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+
+img.sponsor {
+    width: 120px;
+    height: 120px;
+}
+
+div.sponsorship {
+    margin-left: 22px;
+    margin-right: 30px;
+    display: inline;
+}
+
+footer {
+    margin-top: 60px;
+    background: #002699;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.foot {
+    width: 270px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 100px;
+    text-decoration: wavy;
+    display: inline-block;
+}
+
